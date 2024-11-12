@@ -1,0 +1,64 @@
+#myButton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#myButton:hover {
+    background-color: #45a049; /* Darken on hover */
+}
+#hoverBox {
+    width: 300px;
+    height: 200px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 200px;
+    font-size: 18px;
+    border: 2px solid #333;
+    margin: 50px auto;
+    position: relative;
+}
+
+#coordinates {
+    font-weight: bold;
+    color: #333;
+}
+#eventBox {
+    width: 300px;
+    height: 200px;
+    background-color: #add8e6;
+    text-align: center;
+    line-height: 200px;
+    font-size: 18px;
+    border: 2px solid #333;
+    margin: 50px auto;
+    position: relative;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+#eventBox:hover {
+    background-color: #87cefa;
+}
+
+#textInput {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+#displayKey {
+    font-size: 18px;
+    color: #333;
+}
+#myForm {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px auto;
+}
